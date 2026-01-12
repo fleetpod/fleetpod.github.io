@@ -1,0 +1,67 @@
+# Site settings
+title: Fleetpod - AI-Native BaaS Platform
+email: contact@fleetpod.io
+description: >-
+  Build production-grade AI applications with Fleetpod.
+  The AI-Native Backend as a Service platform with vector database,
+  authentication, real-time subscriptions, edge functions, and intelligent APIs.
+baseurl: ""
+url: "https://fleetpod.github.io"
+twitter_username: fleetpod
+github_username: fleetpod
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# GitHub Pages settings
+github:
+  repository_name: fleetpod.github.io
+  repository_url: https://github.com/fleetpod/fleetpod.github.io
+
+# Jekyll SEO Tag plugin settings
+lang: en_US
+locale: en_US
+title_separator: "-"
+social:
+  name: Fleetpod
+  links:
+    - https://github.com/fleetpod
+    - https://twitter.com/fleetpod
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Collections
+collections:
+  features:
+    output: false
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "features"
+    values:
+      layout: "feature"
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "doc"
