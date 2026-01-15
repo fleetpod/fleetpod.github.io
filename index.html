@@ -8,36 +8,38 @@ layout: default
     <div class="hero-content">
       <div class="hero-badge">
         <span class="hero-badge-dot"></span>
-        <span>Now in Public Beta</span>
+        <span>Open Source & Self-hostable</span>
       </div>
 
       <h1 class="hero-title">
-        Build in a weekend.<br>
-        <span class="text-gradient">Scale to millions.</span>
+        <span class="text-gradient">Supabase alternative</span><br>
+        in the AI Era.
       </h1>
 
       <p class="hero-description">
         Fleetpod is the AI-Native Backend as a Service platform.
-        Start your project with vector database, AI authentication, intelligent APIs,
-        edge functions, real-time subscriptions, and storage.
+        Build AI applications with multi-tenant architecture, collections,
+        AI threads, event-driven workflows, and asset exchange.
       </p>
 
       <div class="hero-cta">
-        <a href="#start" class="btn btn-primary btn-lg">
-          Start your project
+        <a href="https://github.com/fleetpod/fleetpod" class="btn btn-primary btn-lg">
+          Get Started
         </a>
-        <a href="#docs" class="btn btn-outline btn-lg">
+        <a href="https://github.com/fleetpod/fleetpod#quick-start" class="btn btn-outline btn-lg">
           Documentation
         </a>
       </div>
 
       <div class="hero-code">
-        <pre><code># Create a new AI-powered project
-npx fleetpod init my-app
+        <pre><code># Clone the repository
+git clone https://github.com/fleetpod/fleetpod.git
 
-# Start the development server
-cd my-app
-npm run dev</code></pre>
+# Start local development
+cd fleetpod && task local-dev-up
+
+# Create admin user
+task create-default-admin</code></pre>
       </div>
     </div>
   </div>
@@ -50,62 +52,89 @@ npm run dev</code></pre>
       <span class="section-label">Features</span>
       <h2 class="section-title">Everything you need to build AI apps</h2>
       <p class="section-description">
-        Ship faster with a complete platform designed for the AI era
+        A complete backend platform designed for the AI era
       </p>
     </div>
 
     <div class="features-grid">
       <div class="feature-card">
-        <div class="feature-icon">🧠</div>
-        <h3 class="feature-title">Vector Database</h3>
+        <div class="feature-icon">🏗️</div>
+        <h3 class="feature-title">Multi-Tenant Architecture</h3>
         <p class="feature-description">
-          Built-in vector database with semantic search and embeddings.
-          Store and query high-dimensional vectors for RAG applications.
+          Support for Users, Teams, and Projects with proper isolation.
+          Hierarchical resource management for SaaS applications.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon">🔐</div>
-        <h3 class="feature-title">AI Authentication</h3>
+        <h3 class="feature-title">Authentication</h3>
         <p class="feature-description">
-          Social logins, passwordless authentication, and advanced security features.
-          Row-level security out of the box.
+          Complete authentication system with JWT tokens and refresh tokens.
+          Secure session management out of the box.
         </p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-icon">⚡</div>
-        <h3 class="feature-title">Instant APIs</h3>
+        <div class="feature-icon">📁</div>
+        <h3 class="feature-title">Collections</h3>
         <p class="feature-description">
-          Auto-generate REST and GraphQL APIs from your data models.
-          Smart query optimization and caching included.
+          Structured data storage with flexible schemas.
+          Organize and query your application data efficiently.
         </p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-icon">🔄</div>
-        <h3 class="feature-title">Realtime</h3>
+        <div class="feature-icon">💬</div>
+        <h3 class="feature-title">AI Threads</h3>
         <p class="feature-description">
-          Build collaborative and live applications with realtime subscriptions.
-          WebSocket connections with automatic reconnection.
-        </p>
-      </div>
-
-      <div class="feature-card">
-        <div class="feature-icon">⚙️</div>
-        <h3 class="feature-title">Edge Functions</h3>
-        <p class="feature-description">
-          Deploy serverless functions globally. Write in TypeScript, Python, or Go.
-          Auto-scale based on demand.
+          Message threading system designed for AI conversations and chat applications.
+          Build ChatGPT-like experiences easily.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon">📦</div>
-        <h3 class="feature-title">Storage</h3>
+        <h3 class="feature-title">File Storage</h3>
         <p class="feature-description">
-          Store, organize, and serve large files. Built-in image transformations
-          and CDN delivery for optimal performance.
+          S3-compatible storage with Cloudflare R2 integration.
+          Store and serve files with asset management.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🔄</div>
+        <h3 class="feature-title">Event-Driven</h3>
+        <p class="feature-description">
+          Kafka-based event system for asynchronous processing.
+          Perfect for AI workflows and real-time interactions.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">💰</div>
+        <h3 class="feature-title">Asset Exchange</h3>
+        <p class="feature-description">
+          Sophisticated transaction framework for digital asset management.
+          State machine for complex asset workflows.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">⚙️</div>
+        <h3 class="feature-title">Runtime Variables</h3>
+        <p class="feature-description">
+          Dynamic configuration management for your applications.
+          Update settings without redeployment.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🔌</div>
+        <h3 class="feature-title">Dual Protocol APIs</h3>
+        <p class="feature-description">
+          gRPC-first with REST API compatibility via grpc-gateway.
+          Type-safe APIs with Protocol Buffers.
         </p>
       </div>
     </div>
@@ -119,85 +148,117 @@ npm run dev</code></pre>
       <span class="section-label">Products</span>
       <h2 class="section-title">A complete toolkit for developers</h2>
       <p class="section-description">
-        Use Fleetpod with any framework or language
+        Build with TypeScript, Go, or any language
       </p>
     </div>
 
     <div class="product-tabs">
       <button class="product-tab active">All</button>
-      <button class="product-tab">Database</button>
-      <button class="product-tab">Auth</button>
-      <button class="product-tab">Functions</button>
-      <button class="product-tab">Storage</button>
+      <button class="product-tab">Core</button>
+      <button class="product-tab">SDKs</button>
+      <button class="product-tab">Console</button>
     </div>
 
     <div class="product-grid">
       <div class="product-card">
         <div class="product-header">
-          <div class="product-logo">🗄️</div>
-          <h3 class="product-name">Postgres Database</h3>
+          <div class="product-logo">🔐</div>
+          <h3 class="product-name">Authentication Service</h3>
         </div>
         <p class="product-description">
-          Full Postgres database with extensions. Every project is a full database,
-          not just a slice.
+          Complete user authentication with JWT tokens and secure session management.
         </p>
         <ul class="product-features">
-          <li class="product-feature">Full table and view support</li>
-          <li class="product-feature">RLS (Row Level Security)</li>
-          <li class="product-feature">Database functions & triggers</li>
-          <li class="product-feature">Full-text search</li>
-          <li class="product-feature">pgvector extension</li>
-        </ul>
-      </div>
-
-      <div class="product-card">
-        <div class="product-header">
-          <div class="product-logo">🔑</div>
-          <h3 class="product-name">Authentication</h3>
-        </div>
-        <p class="product-description">
-          Add user sign ups and logins, securing your data with Row Level Security.
-        </p>
-        <ul class="product-features">
-          <li class="product-feature">Social providers (Google, GitHub, etc.)</li>
-          <li class="product-feature">Email & Password authentication</li>
-          <li class="product-feature">Passwordless (Magic Links)</li>
-          <li class="product-feature">Phone authentication</li>
-          <li class="product-feature">SSO support</li>
-        </ul>
-      </div>
-
-      <div class="product-card">
-        <div class="product-header">
-          <div class="product-logo">🌐</div>
-          <h3 class="product-name">Edge Functions</h3>
-        </div>
-        <p class="product-description">
-          Write custom code without deploying or scaling servers.
-        </p>
-        <ul class="product-features">
-          <li class="product-feature">Globally distributed</li>
-          <li class="product-feature">TypeScript support</li>
-          <li class="product-feature">Invoke from frontend or database</li>
-          <li class="product-feature">Auto-scaling</li>
-          <li class="product-feature">Cron jobs & webhooks</li>
+          <li class="product-feature">JWT-based authentication</li>
+          <li class="product-feature">Refresh token mechanism</li>
+          <li class="product-feature">User profile management</li>
+          <li class="product-feature">Sign-up, login, logout flows</li>
+          <li class="product-feature">gRPC & REST API access</li>
         </ul>
       </div>
 
       <div class="product-card">
         <div class="product-header">
           <div class="product-logo">📁</div>
-          <h3 class="product-name">Storage</h3>
+          <h3 class="product-name">Collections & Threads</h3>
         </div>
         <p class="product-description">
-          Store, organize, and serve large files. Any media, including images and videos.
+          Structured data storage with AI conversation threading built-in.
         </p>
         <ul class="product-features">
-          <li class="product-feature">Unlimited file uploads</li>
-          <li class="product-feature">Image transformations</li>
-          <li class="product-feature">CDN delivery</li>
-          <li class="product-feature">Bucket and folder management</li>
-          <li class="product-feature">Row-level security</li>
+          <li class="product-feature">Flexible schema collections</li>
+          <li class="product-feature">AI message threading</li>
+          <li class="product-feature">ChatGPT-like experiences</li>
+          <li class="product-feature">Project-scoped data</li>
+          <li class="product-feature">Real-time sync ready</li>
+        </ul>
+      </div>
+
+      <div class="product-card">
+        <div class="product-header">
+          <div class="product-logo">📦</div>
+          <h3 class="product-name">File Storage</h3>
+        </div>
+        <p class="product-description">
+          S3-compatible storage with Cloudflare R2 integration.
+        </p>
+        <ul class="product-features">
+          <li class="product-feature">Presigned URLs for uploads</li>
+          <li class="product-feature">Cloudflare R2 integration</li>
+          <li class="product-feature">Asset cataloging</li>
+          <li class="product-feature">File metadata management</li>
+          <li class="product-feature">CDN-ready delivery</li>
+        </ul>
+      </div>
+
+      <div class="product-card">
+        <div class="product-header">
+          <div class="product-logo">💰</div>
+          <h3 class="product-name">Asset Exchange</h3>
+        </div>
+        <p class="product-description">
+          Transaction framework for digital asset management and workflows.
+        </p>
+        <ul class="product-features">
+          <li class="product-feature">State machine transactions</li>
+          <li class="product-feature">Pluggable execution factories</li>
+          <li class="product-feature">Multi-tenant support</li>
+          <li class="product-feature">Async task pipelines</li>
+          <li class="product-feature">Audit trails</li>
+        </ul>
+      </div>
+
+      <div class="product-card">
+        <div class="product-header">
+          <div class="product-logo">📘</div>
+          <h3 class="product-name">TypeScript SDK</h3>
+        </div>
+        <p class="product-description">
+          Full-featured SDK with type safety for JavaScript/TypeScript apps.
+        </p>
+        <ul class="product-features">
+          <li class="product-feature">Full TypeScript types</li>
+          <li class="product-feature">HTTP and gRPC transports</li>
+          <li class="product-feature">Auto token refresh</li>
+          <li class="product-feature">Service registry pattern</li>
+          <li class="product-feature"> npm install ready</li>
+        </ul>
+      </div>
+
+      <div class="product-card">
+        <div class="product-header">
+          <div class="product-logo">🔧</div>
+          <h3 class="product-name">Admin Console</h3>
+        </div>
+        <p class="product-description">
+          Web-based management interface built with Refine and shadcn/ui.
+        </p>
+        <ul class="product-features">
+          <li class="product-feature">React-based UI</li>
+          <li class="product-feature">User & team management</li>
+          <li class="product-feature">Project & collection views</li>
+          <li class="product-feature">Real-time monitoring</li>
+          <li class="product-feature">Self-hostable</li>
         </ul>
       </div>
     </div>
@@ -209,17 +270,17 @@ npm run dev</code></pre>
   <div class="container">
     <div class="section-header">
       <span class="section-label">Community</span>
-      <h2 class="section-title">Loved by developers worldwide</h2>
+      <h2 class="section-title">Built by developers, for developers</h2>
       <p class="section-description">
-        Join thousands of developers building the future with Fleetpod
+        Join the open source community building the future of AI backends
       </p>
     </div>
 
     <div class="testimonials-grid">
       <div class="testimonial-card">
         <p class="testimonial-content">
-          "Fleetpod makes AI development so much easier. The vector database integration
-          is seamless, and I built my RAG application in just a few hours."
+          "The threading system is exactly what we needed for our AI chat app.
+          Built a ChatGPT-like experience in days, not weeks."
         </p>
         <div class="testimonial-author">
           <div class="testimonial-avatar">JC</div>
@@ -232,28 +293,28 @@ npm run dev</code></pre>
 
       <div class="testimonial-card">
         <p class="testimonial-content">
-          "Finally, a backend platform that understands AI. The instant APIs
-          and edge functions make our development workflow incredibly fast."
+          "gRPC-first with type-safe APIs changed how we build.
+          The TypeScript SDK generates all types from Protobuf - incredible DX."
         </p>
         <div class="testimonial-author">
           <div class="testimonial-avatar">MR</div>
           <div class="testimonial-info">
             <div class="testimonial-name">Marcus Rodriguez</div>
-            <div class="testimonial-title">CTO at StartupXYZ</div>
+            <div class="testimonial-title">Full Stack Developer</div>
           </div>
         </div>
       </div>
 
       <div class="testimonial-card">
         <p class="testimonial-content">
-          "The best DX I've experienced in years. From docs to latency to the
-          authentication flow - everything just works. Highly recommended!"
+          "Self-hosted and open source means we control our data.
+          The multi-tenant architecture is perfect for our SaaS platform."
         </p>
         <div class="testimonial-author">
           <div class="testimonial-avatar">SK</div>
           <div class="testimonial-info">
             <div class="testimonial-name">Sarah Kim</div>
-            <div class="testimonial-title">Full Stack Developer</div>
+            <div class="testimonial-title">CTO at StartupXYZ</div>
           </div>
         </div>
       </div>
@@ -265,13 +326,14 @@ npm run dev</code></pre>
 <section class="cta" id="start">
   <div class="container">
     <div class="cta-card">
-      <h2 class="cta-title">Start building in seconds</h2>
+      <h2 class="cta-title">Start building today</h2>
       <p class="cta-description">
-        Kickstart your next AI project with Fleetpod. Free tier available for hobby projects.
+        Self-host Fleetpod or join the open source community.
+        Build AI applications with modern architecture.
       </p>
       <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-        <a href="#" class="btn btn-primary btn-lg">Get Started</a>
-        <a href="#" class="btn btn-outline btn-lg">Contact Sales</a>
+        <a href="https://github.com/fleetpod/fleetpod" class="btn btn-primary btn-lg">Get Started</a>
+        <a href="https://github.com/fleetpod/fleetpod" class="btn btn-outline btn-lg">Star on GitHub</a>
       </div>
     </div>
   </div>
@@ -287,64 +349,59 @@ npm run dev</code></pre>
           <span>Fleetpod</span>
         </div>
         <p class="footer-description">
-          AI-Native Backend as a Service platform.<br>
-          Build production-grade AI applications.
+          Supabase alternative in AI Era.<br>
+          Open-source BaaS for AI applications.
         </p>
       </div>
 
       <div>
         <h4 class="footer-section-title">Product</h4>
         <ul class="footer-links">
-          <li><a href="#" class="footer-link">Database</a></li>
-          <li><a href="#" class="footer-link">Authentication</a></li>
-          <li><a href="#" class="footer-link">Storage</a></li>
-          <li><a href="#" class="footer-link">Functions</a></li>
-          <li><a href="#" class="footer-link">Realtime</a></li>
+          <li><a href="https://github.com/fleetpod/fleetpod#features" class="footer-link">Features</a></li>
+          <li><a href="https://github.com/fleetpod/fleetpod#api-structure" class="footer-link">APIs</a></li>
+          <li><a href="https://github.com/fleetpod/fleetpod" class="footer-link">TypeScript SDK</a></li>
+          <li><a href="https://github.com/fleetpod/fleetpod" class="footer-link">Go SDK</a></li>
+          <li><a href="https://github.com/fleetpod/fleetpod" class="footer-link">Admin Console</a></li>
         </ul>
       </div>
 
       <div>
         <h4 class="footer-section-title">Resources</h4>
         <ul class="footer-links">
-          <li><a href="#" class="footer-link">Documentation</a></li>
-          <li><a href="#" class="footer-link">API Reference</a></li>
-          <li><a href="#" class="footer-link">Guides</a></li>
-          <li><a href="#" class="footer-link">Blog</a></li>
-          <li><a href="#" class="footer-link">Changelog</a></li>
+          <li><a href="https://github.com/fleetpod/fleetpod#quick-start" class="footer-link">Documentation</a></li>
+          <li><a href="https://github.com/fleetpod/fleetpod#development" class="footer-link">Development</a></li>
+          <li><a href="https://github.com/fleetpod/fleetpod#architecture" class="footer-link">Architecture</a></li>
+          <li><a href="https://github.com/fleetpod/fleetpod/blob/main/ROADMAP.md" class="footer-link">Roadmap</a></li>
+          <li><a href="https://github.com/fleetpod/fleetpod" class="footer-link">GitHub</a></li>
         </ul>
       </div>
 
       <div>
-        <h4 class="footer-section-title">Company</h4>
+        <h4 class="footer-section-title">Community</h4>
         <ul class="footer-links">
-          <li><a href="#" class="footer-link">About</a></li>
-          <li><a href="#" class="footer-link">Careers</a></li>
-          <li><a href="#" class="footer-link">Blog</a></li>
-          <li><a href="#" class="footer-link">Contact</a></li>
-          <li><a href="#" class="footer-link">Partners</a></li>
+          <li><a href="https://github.com/fleetpod/fleetpod" class="footer-link">Contributing</a></li>
+          <li><a href="https://github.com/fleetpod/fleetpod/issues" class="footer-link">Issues</a></li>
+          <li><a href="https://github.com/fleetpod/fleetpod/discussions" class="footer-link">Discussions</a></li>
+          <li><a href="https://github.com/fleetpod/fleetpod" class="footer-link">License</a></li>
         </ul>
       </div>
 
       <div>
-        <h4 class="footer-section-title">Legal</h4>
+        <h4 class="footer-section-title">More</h4>
         <ul class="footer-links">
-          <li><a href="#" class="footer-link">Privacy</a></li>
-          <li><a href="#" class="footer-link">Terms</a></li>
-          <li><a href="#" class="footer-link">Cookie Policy</a></li>
-          <li><a href="#" class="footer-link">SLA</a></li>
+          <li><a href="https://github.com/fleetpod" class="footer-link">Organization</a></li>
+          <li><a href="https://github.com/fleetpod/fleetpod/stargazers" class="footer-link">Star Us</a></li>
         </ul>
       </div>
     </div>
 
     <div class="footer-bottom">
       <div class="footer-copyright">
-        © 2025 Fleetpod. All rights reserved.
+        © 2025 Fleetpod. Open source under MIT License.
       </div>
       <div class="footer-social">
-        <a href="#" class="social-link">𝕏</a>
-        <a href="#" class="social-link">GitHub</a>
-        <a href="#" class="social-link">Discord</a>
-        <a href="#" class="social-link">LinkedIn</a>
+        <a href="https://github.com/fleetpod/fleetpod" class="social-link">GitHub</a>
+        <a href="https://github.com/fleetpod" class="social-link">𝕏</a>
       </div>
     </div>
   </div>
