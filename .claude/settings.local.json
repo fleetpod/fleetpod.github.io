@@ -4,7 +4,10 @@
       "mcp__web-reader__webReader",
       "Skill(commit)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "mcp__zread__get_repo_structure",
+      "Bash(bundle exec jekyll build:*)",
+      "Bash(git push:*)"
     ]
   }
 }

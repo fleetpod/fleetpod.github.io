@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-This is a Jekyll-powered static website for **Fleetpod**, an AI-Native Backend as a Service (BaaS) platform. The site is deployed to GitHub Pages and serves as the landing page and marketing site.
+This is a Jekyll-powered static website for **Fleetpod**, an AI-Native BaaS Platform For AI Products. The site is deployed to GitHub Pages and serves as the landing page and marketing site.
 
 ## Development Commands
 
